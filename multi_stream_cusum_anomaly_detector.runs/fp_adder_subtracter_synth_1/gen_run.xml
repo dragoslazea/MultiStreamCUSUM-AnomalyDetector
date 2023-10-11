@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="fp_adder_subtracter_synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1697018178">
+  <File Type="RDS-PROPCONSTRS" Name="fp_adder_subtracter_drc_synth.rpt"/>
+  <File Type="PA-TCL" Name="fp_adder_subtracter.tcl"/>
+  <File Type="RDS-RDS" Name="fp_adder_subtracter.vds"/>
+  <File Type="RDS-UTIL" Name="fp_adder_subtracter_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="fp_adder_subtracter_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="fp_adder_subtracter.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="fp_adder_subtracter_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="fp_adder_subtracter_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="BlockSrcs" RelSrcDir="$PSRCDIR/fp_adder_subtracter">
+    <File Path="$PSRCDIR/sources_1/ip/fp_adder_subtracter/fp_adder_subtracter.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="fp_adder_subtracter"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="BlockSrcs" RelSrcDir="$PSRCDIR/fp_adder_subtracter">
+    <File Path="$PSRCDIR/sources_1/ip/fp_adder_subtracter/fp_adder_subtracter.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="fp_adder_subtracter"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
+      <Desc>Vivado Synthesis Defaults</Desc>
+    </StratHandle>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

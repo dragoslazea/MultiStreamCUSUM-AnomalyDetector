@@ -1,0 +1,5 @@
+verilog xil_defaultlib "../../../../multi_stream_cusum_anomaly_detector.srcs/sources_1/ip/fifo32x16/sim/fifo32x16.v" --include "../../../ipstatic/hdl"
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="fp_greater_than_synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1697018643">
+  <File Type="RDS-PROPCONSTRS" Name="fp_greater_than_drc_synth.rpt"/>
+  <File Type="PA-TCL" Name="fp_greater_than.tcl"/>
+  <File Type="RDS-RDS" Name="fp_greater_than.vds"/>
+  <File Type="RDS-UTIL" Name="fp_greater_than_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="fp_greater_than_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="fp_greater_than.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="fp_greater_than_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="fp_greater_than_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="BlockSrcs" RelSrcDir="$PSRCDIR/fp_greater_than">
+    <File Path="$PSRCDIR/sources_1/ip/fp_greater_than/fp_greater_than.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="fp_greater_than"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="BlockSrcs" RelSrcDir="$PSRCDIR/fp_greater_than">
+    <File Path="$PSRCDIR/sources_1/ip/fp_greater_than/fp_greater_than.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="fp_greater_than"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
+      <Desc>Vivado Synthesis Defaults</Desc>
+    </StratHandle>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

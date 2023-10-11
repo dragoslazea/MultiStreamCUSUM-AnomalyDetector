@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Wed Oct 11 13:04:04 2023
+# Process ID: 15196
+# Current directory: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.runs/fp_greater_than_synth_1
+# Command line: vivado.exe -log fp_greater_than.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source fp_greater_than.tcl
+# Log file: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.runs/fp_greater_than_synth_1/fp_greater_than.vds
+# Journal file: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.runs/fp_greater_than_synth_1\vivado.jou
+#-----------------------------------------------------------
+source fp_greater_than.tcl -notrace
