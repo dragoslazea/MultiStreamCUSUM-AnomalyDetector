@@ -3,8 +3,8 @@
 -- Tool Version: Vivado v.2016.4 (win64) Build 1756540 Mon Jan 23 19:11:23 MST 2017
 -- Date        : Wed Oct 11 12:59:29 2023
 -- Host        : LAPTOP-S8S4C16E running 64-bit major release  (build 9200)
--- Command     : write_vhdl -force -mode funcsim
---               c:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/ip/fifo32x16/fifo32x16_sim_netlist.vhdl
+-- Command     : write_vhdl -force -mode funcsim -rename_top fifo32x16 -prefix
+--               fifo32x16_ fifo32x16_sim_netlist.vhdl
 -- Design      : fifo32x16
 -- Purpose     : This VHDL netlist is a functional simulation representation of the design and should not be modified or
 --               synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -24,8 +24,6 @@ entity fifo32x16_dmem is
     Q : in STD_LOGIC_VECTOR ( 3 downto 0 );
     \gpregsm1.curr_fwft_state_reg[1]\ : in STD_LOGIC_VECTOR ( 0 to 0 )
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of fifo32x16_dmem : entity is "dmem";
 end fifo32x16_dmem;
 
 architecture STRUCTURE of fifo32x16_dmem is
@@ -537,8 +535,6 @@ entity fifo32x16_rd_bin_cntr is
     s_aclk : in STD_LOGIC;
     \ngwrdrst.grst.g7serrst.rd_rst_reg_reg[2]\ : in STD_LOGIC_VECTOR ( 0 to 0 )
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of fifo32x16_rd_bin_cntr : entity is "rd_bin_cntr";
 end fifo32x16_rd_bin_cntr;
 
 architecture STRUCTURE of fifo32x16_rd_bin_cntr is
@@ -696,8 +692,6 @@ entity fifo32x16_rd_fwft is
     ram_full_fb_i_reg : in STD_LOGIC;
     s_axis_tvalid : in STD_LOGIC
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of fifo32x16_rd_fwft : entity is "rd_fwft";
 end fifo32x16_rd_fwft;
 
 architecture STRUCTURE of fifo32x16_rd_fwft is
@@ -964,8 +958,6 @@ entity fifo32x16_rd_status_flags_ss is
     s_aclk : in STD_LOGIC;
     \ngwrdrst.grst.g7serrst.rd_rst_reg_reg[2]\ : in STD_LOGIC_VECTOR ( 0 to 0 )
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of fifo32x16_rd_status_flags_ss : entity is "rd_status_flags_ss";
 end fifo32x16_rd_status_flags_ss;
 
 architecture STRUCTURE of fifo32x16_rd_status_flags_ss is
@@ -1018,8 +1010,6 @@ entity fifo32x16_synchronizer_ff is
     in0 : in STD_LOGIC_VECTOR ( 0 to 0 );
     s_aclk : in STD_LOGIC
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of fifo32x16_synchronizer_ff : entity is "synchronizer_ff";
 end fifo32x16_synchronizer_ff;
 
 architecture STRUCTURE of fifo32x16_synchronizer_ff is
@@ -1215,8 +1205,6 @@ entity fifo32x16_updn_cntr is
     s_aclk : in STD_LOGIC;
     \ngwrdrst.grst.g7serrst.rd_rst_reg_reg[2]\ : in STD_LOGIC_VECTOR ( 0 to 0 )
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of fifo32x16_updn_cntr : entity is "updn_cntr";
 end fifo32x16_updn_cntr;
 
 architecture STRUCTURE of fifo32x16_updn_cntr is
@@ -1364,8 +1352,6 @@ entity fifo32x16_wr_bin_cntr is
     s_aclk : in STD_LOGIC;
     AR : in STD_LOGIC_VECTOR ( 0 to 0 )
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of fifo32x16_wr_bin_cntr : entity is "wr_bin_cntr";
 end fifo32x16_wr_bin_cntr;
 
 architecture STRUCTURE of fifo32x16_wr_bin_cntr is
@@ -1621,8 +1607,6 @@ entity fifo32x16_wr_status_flags_ss is
     \grstd1.grst_full.grst_f.rst_d2_reg\ : in STD_LOGIC;
     s_axis_tvalid : in STD_LOGIC
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of fifo32x16_wr_status_flags_ss : entity is "wr_status_flags_ss";
 end fifo32x16_wr_status_flags_ss;
 
 architecture STRUCTURE of fifo32x16_wr_status_flags_ss is
@@ -1715,8 +1699,6 @@ entity fifo32x16_dc_ss_fwft is
     s_aclk : in STD_LOGIC;
     \ngwrdrst.grst.g7serrst.rd_rst_reg_reg[2]\ : in STD_LOGIC_VECTOR ( 0 to 0 )
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of fifo32x16_dc_ss_fwft : entity is "dc_ss_fwft";
 end fifo32x16_dc_ss_fwft;
 
 architecture STRUCTURE of fifo32x16_dc_ss_fwft is
@@ -1747,8 +1729,6 @@ entity fifo32x16_memory is
     Q : in STD_LOGIC_VECTOR ( 3 downto 0 );
     \gpregsm1.curr_fwft_state_reg[1]\ : in STD_LOGIC_VECTOR ( 0 to 0 )
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of fifo32x16_memory : entity is "memory";
 end fifo32x16_memory;
 
 architecture STRUCTURE of fifo32x16_memory is
@@ -2130,8 +2110,6 @@ entity fifo32x16_reset_blk_ramfifo is
     s_aclk : in STD_LOGIC;
     s_aresetn : in STD_LOGIC
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of fifo32x16_reset_blk_ramfifo : entity is "reset_blk_ramfifo";
 end fifo32x16_reset_blk_ramfifo;
 
 architecture STRUCTURE of fifo32x16_reset_blk_ramfifo is
@@ -2443,8 +2421,6 @@ entity fifo32x16_wr_logic is
     \gc0.count_d1_reg[3]\ : in STD_LOGIC_VECTOR ( 3 downto 0 );
     AR : in STD_LOGIC_VECTOR ( 0 to 0 )
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of fifo32x16_wr_logic : entity is "wr_logic";
 end fifo32x16_wr_logic;
 
 architecture STRUCTURE of fifo32x16_wr_logic is
@@ -2502,8 +2478,6 @@ entity fifo32x16_rd_logic is
     ram_full_fb_i_reg : in STD_LOGIC;
     s_axis_tvalid : in STD_LOGIC
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of fifo32x16_rd_logic : entity is "rd_logic";
 end fifo32x16_rd_logic;
 
 architecture STRUCTURE of fifo32x16_rd_logic is
@@ -2573,8 +2547,6 @@ entity fifo32x16_fifo_generator_ramfifo is
     s_axis_tdata : in STD_LOGIC_VECTOR ( 31 downto 0 );
     s_aresetn : in STD_LOGIC
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of fifo32x16_fifo_generator_ramfifo : entity is "fifo_generator_ramfifo";
 end fifo32x16_fifo_generator_ramfifo;
 
 architecture STRUCTURE of fifo32x16_fifo_generator_ramfifo is
@@ -2666,8 +2638,6 @@ entity fifo32x16_fifo_generator_top is
     s_axis_tdata : in STD_LOGIC_VECTOR ( 31 downto 0 );
     s_aresetn : in STD_LOGIC
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of fifo32x16_fifo_generator_top : entity is "fifo_generator_top";
 end fifo32x16_fifo_generator_top;
 
 architecture STRUCTURE of fifo32x16_fifo_generator_top is
@@ -2701,8 +2671,6 @@ entity fifo32x16_fifo_generator_v13_1_3_synth is
     s_axis_tdata : in STD_LOGIC_VECTOR ( 31 downto 0 );
     s_aresetn : in STD_LOGIC
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of fifo32x16_fifo_generator_v13_1_3_synth : entity is "fifo_generator_v13_1_3_synth";
 end fifo32x16_fifo_generator_v13_1_3_synth;
 
 architecture STRUCTURE of fifo32x16_fifo_generator_v13_1_3_synth is
@@ -3362,8 +3330,6 @@ entity fifo32x16_fifo_generator_v13_1_3 is
   attribute C_WR_PNTR_WIDTH_WRCH of fifo32x16_fifo_generator_v13_1_3 : entity is 4;
   attribute C_WR_RESPONSE_LATENCY : integer;
   attribute C_WR_RESPONSE_LATENCY of fifo32x16_fifo_generator_v13_1_3 : entity is 1;
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of fifo32x16_fifo_generator_v13_1_3 : entity is "fifo_generator_v13_1_3";
 end fifo32x16_fifo_generator_v13_1_3;
 
 architecture STRUCTURE of fifo32x16_fifo_generator_v13_1_3 is
@@ -4068,8 +4034,6 @@ entity fifo32x16_axis_data_fifo_v1_1_12_axis_data_fifo is
   attribute LP_M_ACLKEN_CAN_TOGGLE of fifo32x16_axis_data_fifo_v1_1_12_axis_data_fifo : entity is 0;
   attribute LP_S_ACLKEN_CAN_TOGGLE : integer;
   attribute LP_S_ACLKEN_CAN_TOGGLE of fifo32x16_axis_data_fifo_v1_1_12_axis_data_fifo : entity is 0;
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of fifo32x16_axis_data_fifo_v1_1_12_axis_data_fifo : entity is "axis_data_fifo_v1_1_12_axis_data_fifo";
   attribute P_APPLICATION_TYPE_AXIS : integer;
   attribute P_APPLICATION_TYPE_AXIS of fifo32x16_axis_data_fifo_v1_1_12_axis_data_fifo : entity is 0;
   attribute P_AXIS_PAYLOAD_WIDTH : integer;

@@ -2,8 +2,8 @@
 # Vivado v2016.4 (64-bit)
 # SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
 # IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
-# Start of session at: Wed Oct 11 12:55:00 2023
-# Process ID: 19336
+# Start of session at: Tue Oct 31 09:45:52 2023
+# Process ID: 6156
 # Current directory: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.runs/axis_broadcaster_0_synth_1
 # Command line: vivado.exe -log axis_broadcaster_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source axis_broadcaster_0.tcl
 # Log file: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.runs/axis_broadcaster_0_synth_1/axis_broadcaster_0.vds

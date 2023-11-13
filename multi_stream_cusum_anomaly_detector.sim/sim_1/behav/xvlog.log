@@ -1,7 +1,21 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/ip/fifo64x16/sim/fifo64x16.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo64x16
 INFO: [VRFC 10-2263] Analyzing Verilog file "C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/ip/fifo32x16/sim/fifo32x16.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module fifo32x16
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/ip/axis_combiner_2/sim/axis_combiner_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axis_combiner_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/ip/axis_combiner_1/sim/axis_combiner_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axis_combiner_1
 INFO: [VRFC 10-2263] Analyzing Verilog file "C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/ip/axis_combiner_0/sim/axis_combiner_0.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module axis_combiner_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/ip/axis_broadcaster_1/hdl/tdata_axis_broadcaster_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tdata_axis_broadcaster_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/ip/axis_broadcaster_1/hdl/tuser_axis_broadcaster_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tuser_axis_broadcaster_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/ip/axis_broadcaster_1/hdl/top_axis_broadcaster_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_axis_broadcaster_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/ip/axis_broadcaster_1/sim/axis_broadcaster_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axis_broadcaster_1
 INFO: [VRFC 10-2263] Analyzing Verilog file "C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/ip/axis_broadcaster_0/hdl/tdata_axis_broadcaster_0.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module tdata_axis_broadcaster_0
 INFO: [VRFC 10-2263] Analyzing Verilog file "C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/ip/axis_broadcaster_0/hdl/tuser_axis_broadcaster_0.v" into library xil_defaultlib
@@ -10,7 +24,5 @@ INFO: [VRFC 10-2263] Analyzing Verilog file "C:/IVA/Research/multi_stream_cusum_
 INFO: [VRFC 10-311] analyzing module top_axis_broadcaster_0
 INFO: [VRFC 10-2263] Analyzing Verilog file "C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/ip/axis_broadcaster_0/sim/axis_broadcaster_0.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module axis_broadcaster_0
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/ip/fifo64x16/sim/fifo64x16.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module fifo64x16
 INFO: [VRFC 10-2263] Analyzing Verilog file "C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.sim/sim_1/behav/glbl.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module glbl

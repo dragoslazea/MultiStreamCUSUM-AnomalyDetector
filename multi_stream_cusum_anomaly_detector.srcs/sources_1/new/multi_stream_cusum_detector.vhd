@@ -1,8 +1,12 @@
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 use IEEE.STD_LOGIC_SIGNED.ALL;
+use IEEE.NUMERIC_STD.ALL;
 
 entity multi_stream_cusum_detector is
+    Generic (
+           NUM_SENSORS : integer := 2
+    );
     Port ( 
            -- control inputs
            clk : in STD_LOGIC;
@@ -26,13 +30,14 @@ entity multi_stream_cusum_detector is
            drift_valid : in STD_LOGIC;
            
            -- outputs
-           abnormal_data : out STD_LOGIC;
+           abnormal_data : out STD_LOGIC_VECTOR (32 downto 0);
            abnormal_ready : in STD_LOGIC;
            abnormal_valid : out STD_LOGIC;
            
            timestamp_data : out STD_LOGIC_VECTOR (31 downto 0);
            timestamp_ready : in STD_LOGIC;
-           timestamp_valid : out STD_LOGIC);
+           timestamp_valid : out STD_LOGIC
+    );
 end multi_stream_cusum_detector;
 
 architecture Structural of multi_stream_cusum_detector is
@@ -73,6 +78,7 @@ end component;
 
 component multi_stream_threshold_exceeding_detector is
     Port ( aclk : in STD_LOGIC;
+       arstn : in STD_LOGIC;
        gp_in_valid : in STD_LOGIC;
        gp_in_ready : out STD_LOGIC;
        gp_in_data : in STD_LOGIC_VECTOR (63 downto 0);
@@ -140,23 +146,38 @@ signal abnormal_flag_valid : STD_LOGIC;
 signal drift_valid_all : STD_LOGIC;
 
 -- data count signals
-signal current_sensor_in_data_count, previous_sensor_in_data_count, s_t_data_count, gn_data_count, gp_data_count : STD_LOGIC_VECTOR (31 downto 0);
+signal current_sensor_in_data_count, previous_sensor_in_data_count, s_t_data_count : STD_LOGIC_VECTOR (31 downto 0);
 signal gn_s_t_data_count, gp_s_t_data_count, gn_s_t_drift_data_count, gp_s_t_drift_data_count, max_gp_data_count, max_gn_data_count, timestamp_data_count, abnormal_data_count : STD_LOGIC_VECTOR (31 downto 0);
 
 -- read count signals
-signal current_sensor_in_rd_count, previous_sensor_in_rd_count, s_t_rd_count, gn_rd_count, gp_rd_count : STD_LOGIC_VECTOR (31 downto 0);
+signal current_sensor_in_rd_count, previous_sensor_in_rd_count, s_t_rd_count : STD_LOGIC_VECTOR (31 downto 0);
 signal gn_s_t_rd_count, gp_s_t_rd_count, gn_s_t_drift_rd_count, gp_s_t_drift_rd_count, max_gp_rd_count, max_gn_rd_count, timestamp_rd_count, abnormal_rd_count : STD_LOGIC_VECTOR (31 downto 0);
 
 -- write count signals
-signal current_sensor_in_wr_count, previous_sensor_in_wr_count, s_t_wr_count, gn_wr_count, gp_wr_count : STD_LOGIC_VECTOR (31 downto 0);
+signal current_sensor_in_wr_count, previous_sensor_in_wr_count, s_t_wr_count : STD_LOGIC_VECTOR (31 downto 0);
 signal gn_s_t_wr_count, gp_s_t_wr_count, gn_s_t_drift_wr_count, gp_s_t_drift_wr_count, max_gp_wr_count, max_gn_wr_count, timestamp_wr_count, abnormal_wr_count : STD_LOGIC_VECTOR (31 downto 0);
 
+type d_count_t is array (NUM_SENSORS - 1 downto 0) of STD_LOGIC_VECTOR (31 downto 0);
+signal gn_data_count, gp_data_count, gn_rd_count, gp_rd_count, gn_wr_count, gp_wr_count : d_count_t;
+
 -- is first control signal
-signal is_first : STD_LOGIC := '1';
+signal is_first : STD_LOGIC_VECTOR (NUM_SENSORS - 1 downto 0) := (others => '1');
 signal measurements_valid : STD_LOGIC := '1';
+
+signal gn_t_1_ready_array, gp_t_1_ready_array : STD_LOGIC_VECTOR (NUM_SENSORS - 1 downto 0) := (others => '0');
+signal gn_t_ready_array, gp_t_ready_array : STD_LOGIC_VECTOR (NUM_SENSORS - 1 downto 0) := (others => '0');
+signal gn_t_1_valid_array, gp_t_1_valid_array : STD_LOGIC_VECTOR (NUM_SENSORS - 1 downto 0) := (others => '0');
+signal gn_t_valid_array, gp_t_valid_array : STD_LOGIC_VECTOR (NUM_SENSORS - 1 downto 0) := (others => '0');
+signal gn_t_valid_mask, gp_t_valid_mask : STD_LOGIC_VECTOR (NUM_SENSORS - 1 downto 0) := (others => '0');
+signal gn_t_1_ready_mask, gp_t_1_ready_mask : STD_LOGIC_VECTOR (NUM_SENSORS - 1 downto 0) := (others => '0');
+
+type g_type is array (NUM_SENSORS - 1 downto 0) of STD_LOGIC_VECTOR (63 downto 0);
+signal gn_t_1_array, gp_t_1_array : g_type;
 
 signal gn_s_t_input, gp_s_t_input : STD_LOGIC_VECTOR (63 downto 0);
 signal gn_s_t_input_valid, gp_s_t_input_valid : STD_LOGIC;
+
+signal th_valid : STD_LOGIC := '0';
 
 begin
 
@@ -191,6 +212,17 @@ begin
     
     measurements_valid <= current_sensor_measurement_valid and previous_sensor_measurement_valid;
     
+    process(clk)
+    begin
+        if rising_edge(clk) then
+            if previous_sensor_in_valid = '1' and current_sensor_in_valid = '1' then
+                assert current_sensor_measurement(63 downto 32) = previous_sensor_measurement(63 downto 32)
+                  report "Ids are not the same..."
+                  severity FAILURE;
+            end if;
+        end if;
+    end process;
+    
     s_t_sub : multi_stream_fp_adder_subtractor port map (
         aclk => clk,
         arstn => rst,
@@ -222,8 +254,8 @@ begin
         axis_rd_data_count => s_t_rd_count 
     );
     
-    s_t_result_ready <= s_t_out_ready when is_first = '0' else '1';
-    s_t_result <= s_t_out when is_first = '0' else current_sensor_measurement(63 downto 32) & x"00000000";
+    s_t_result_ready <= s_t_out_ready when is_first(to_integer(unsigned(s_t_out(63 downto 32)))) = '0' else '1';
+    s_t_result <= s_t_out when is_first(to_integer(unsigned(s_t_out(63 downto 32)))) = '0' else s_t_out(63 downto 32) & x"00000000";
     
     -- pe clock si verificare is first + s_t_out_valid = '1'
     -- is_first = '1' pe reset in acelasi proces
@@ -231,49 +263,93 @@ begin
     begin
         if rising_edge(clk) then
             if rst = '0' then
-                is_first <= '1';
+                is_first <= (others => '1');
             else 
-                if s_t_out_valid = '1' and is_first = '1' then
-                    is_first <= '0';
+                if s_t_out_valid = '1' and is_first(to_integer(unsigned(s_t_out(63 downto 32)))) = '1' then
+                    is_first(to_integer(unsigned(s_t_out(63 downto 32)))) <= '0';
                 end if;
             end if;
         end if;
-    end process;    
+    end process;
     
-    gn_fifo_buffer : fifo64x16 port map (
+    gn_fifo_gen : for i in 0 to NUM_SENSORS - 1 generate
+        gn_fifo_buffer : fifo64x16 port map (
         s_axis_aresetn => rst,
         s_axis_aclk => clk,
-        s_axis_tvalid => gn_t_valid,
-        s_axis_tready => gn_t_ready,
+        s_axis_tvalid => gn_t_valid_array(i),
+        s_axis_tready => gn_t_ready_array(i),
         s_axis_tdata => gn_t,
-        m_axis_tvalid => gn_t_1_valid,
-        m_axis_tready => gn_t_1_ready,
-        m_axis_tdata => gn_t_1,
-        axis_data_count => gn_data_count,
-        axis_wr_data_count => gn_wr_count,
-        axis_rd_data_count => gn_rd_count    
+        m_axis_tvalid => gn_t_1_valid_array(i),
+        m_axis_tready => gn_t_1_ready_array(i),
+        m_axis_tdata => gn_t_1_array(i),
+        axis_data_count => gn_data_count(i),
+        axis_wr_data_count => gn_wr_count(i),
+        axis_rd_data_count => gn_rd_count(i)    
     );
+    end generate gn_fifo_gen;   
     
-    gp_fifo_buffer : fifo64x16 port map (
+    gp_fifo_gen : for i in 0 to NUM_SENSORS - 1 generate
+        gp_fifo_buffer : fifo64x16 port map (
         s_axis_aresetn => rst,
         s_axis_aclk => clk,
-        s_axis_tvalid => gp_t_valid,
-        s_axis_tready => gp_t_ready,
+        s_axis_tvalid => gp_t_valid_array(i),
+        s_axis_tready => gp_t_ready_array(i),
         s_axis_tdata => gp_t,
-        m_axis_tvalid => gp_t_1_valid,
-        m_axis_tready => gp_t_1_ready,
-        m_axis_tdata => gp_t_1,
-        axis_data_count => gp_data_count,
-        axis_wr_data_count => gp_wr_count,
-        axis_rd_data_count => gp_rd_count    
+        m_axis_tvalid => gp_t_1_valid_array(i),
+        m_axis_tready => gp_t_1_ready_array(i),
+        m_axis_tdata => gp_t_1_array(i),
+        axis_data_count => gp_data_count(i),
+        axis_wr_data_count => gp_wr_count(i),
+        axis_rd_data_count => gp_rd_count(i)    
     );
+    end generate gp_fifo_gen;
+    
+--    s_t_out_ready <= gn_s_t_ready and gp_s_t_ready;
+--    gn_s_t_valid <= s_t_out_ready and s_t_out_valid;
+--    gp_s_t_valid <= s_t_out_ready and s_t_out_valid;
     
     s_t_out_ready <= gn_s_t_ready and gp_s_t_ready;
-    gn_s_t_valid <= s_t_out_ready and s_t_out_valid;
-    gp_s_t_valid <= s_t_out_ready and s_t_out_valid;
+    gn_s_t_valid <= s_t_out_valid;
+    gp_s_t_valid <= s_t_out_valid;
     
-    gn_s_t_input <= current_sensor_measurement(63 downto 32) & x"00000000" when is_first = '1' else gn_t_1;
-    gn_s_t_input_valid <= '1' when is_first = '1' else gn_t_1_valid;
+    gn_s_t_input <= s_t_result(63 downto 32) & x"00000000" when is_first(to_integer(unsigned(s_t_result(63 downto 32)))) = '1' else gn_t_1;
+--    gn_s_t_input <= s_t_result(63 downto 32) & x"00000000" when is_first(to_integer(unsigned(s_t_result(63 downto 32)))) = '1' else gn_t_1_array(to_integer(unsigned(s_t_result(63 downto 32))));
+    gn_s_t_input_valid <= '1' when is_first(to_integer(unsigned(s_t_result(63 downto 32)))) = '1' and s_t_out_valid = '1' else gn_t_1_valid;
+    
+--    read_g : process(clk)
+--    begin
+--        if rising_edge(clk) then
+--            -- read gn from the correct fifo
+--            for i in 0 to NUM_SENSORS - 1 loop
+--                gn_t_1_ready_array(i) <= '0';
+--            end loop;
+            
+--            gn_t_1_ready_array(to_integer(unsigned(s_t_result(63 downto 32)))) <= gn_t_1_ready;
+--            gn_t_1_valid <= gn_t_1_valid_array(to_integer(unsigned(s_t_result(63 downto 32))));
+--            gn_t_1 <= gn_t_1_array(to_integer(unsigned(s_t_result(63 downto 32))));
+----            gn_t_1 <= s_t_result(63 downto 32) & gn_t_1_array(to_integer(unsigned(s_t_result(63 downto 32))))(31 downto 0);
+            
+--            -- read gp from the correct fifo
+--            for i in 0 to NUM_SENSORS - 1 loop
+--                gp_t_1_ready_array(i) <= '0';
+--            end loop;
+            
+--            gp_t_1_ready_array(to_integer(unsigned(s_t_result(63 downto 32)))) <= gp_t_1_ready;
+--            gp_t_1_valid <= gp_t_1_valid_array(to_integer(unsigned(s_t_result(63 downto 32))));
+--            gp_t_1 <= gp_t_1_array(to_integer(unsigned(s_t_result(63 downto 32))));
+----            gp_t_1 <= s_t_result(63 downto 32) & gp_t_1_array(to_integer(unsigned(s_t_result(63 downto 32))))(31 downto 0);
+--        end if;
+--    end process read_g;
+    
+    gn_t_1_ready_mask(0) <= gn_t_1_ready;
+    gn_t_1_ready_array <= std_logic_vector(shift_left(unsigned(gn_t_1_ready_mask), to_integer(unsigned(s_t_result(63 downto 32)))));
+    gn_t_1_valid <= gn_t_1_valid_array(to_integer(unsigned(s_t_result(63 downto 32))));
+    gn_t_1 <= gn_t_1_array(to_integer(unsigned(s_t_result(63 downto 32))));
+    
+    gp_t_1_ready_mask(0) <= gp_t_1_ready;
+    gp_t_1_ready_array <= std_logic_vector(shift_left(unsigned(gp_t_1_ready_mask), to_integer(unsigned(s_t_result(63 downto 32)))));
+    gp_t_1_valid <= gp_t_1_valid_array(to_integer(unsigned(s_t_result(63 downto 32))));
+    gp_t_1 <= gp_t_1_array(to_integer(unsigned(s_t_result(63 downto 32))));
     
     gn_s_t_sub : multi_stream_fp_adder_subtractor port map (
         aclk => clk,
@@ -292,8 +368,9 @@ begin
         m_axis_result_tdata => gn_s_t_in
     ); 
     
-    gp_s_t_input <= current_sensor_measurement(63 downto 32) & x"00000000" when is_first = '1' else gp_t_1;
-    gp_s_t_input_valid <= '1' when is_first = '1' else gp_t_1_valid;
+    gp_s_t_input <= s_t_result(63 downto 32) & x"00000000" when is_first(to_integer(unsigned(s_t_result(63 downto 32)))) = '1' else gp_t_1;
+--    gp_s_t_input <= s_t_result(63 downto 32) & x"00000000" when is_first(to_integer(unsigned(s_t_result(63 downto 32)))) = '1' else gp_t_1_array(to_integer(unsigned(s_t_result(63 downto 32))));
+    gp_s_t_input_valid <= '1' when is_first(to_integer(unsigned(s_t_result(63 downto 32)))) = '1' and s_t_out_valid = '1' else gp_t_1_valid;
     
     gp_s_t_add : multi_stream_fp_adder_subtractor port map (
         aclk => clk,
@@ -407,13 +484,15 @@ begin
         axis_rd_data_count => gp_s_t_drift_rd_count    
     );
     
+    --gn_s_t_drift_out_ready <= gn_s_t_drift_max_ready and 
+    
     gn_s_t_max : multi_stream_fp_max port map (
         aclk => clk,
         arstn => rst,
         a_valid => gn_s_t_drift_out_valid,
         a_ready => gn_s_t_drift_out_ready,
         a_data => gn_s_t_drift_out,
-        b_valid => '1',
+        b_valid => gn_s_t_drift_out_valid,
         b_ready => max_gn_0_ready,
         b_data => (others => '0'),
         max_valid => max_gn_in_valid,
@@ -427,7 +506,7 @@ begin
         a_valid => gp_s_t_drift_out_valid,
         a_ready => gp_s_t_drift_out_ready,
         a_data => gp_s_t_drift_out,
-        b_valid => '1',
+        b_valid => gp_s_t_drift_out_valid,
         b_ready => max_gp_0_ready,
         b_data => (others => '0'),
         max_valid => max_gp_in_valid,
@@ -463,20 +542,23 @@ begin
         axis_rd_data_count => max_gp_rd_count    
     );
     
+    th_valid <= threshold_valid and max_gn_out_valid and max_gp_out_valid;
+    
     threshold_exceeding_checker : multi_stream_threshold_exceeding_detector port map (
         aclk => clk,
+        arstn => rst,
         gp_in_valid => max_gp_out_valid,
         gp_in_ready => max_gp_out_ready,
         gp_in_data => max_gp_out,
         gn_in_valid => max_gn_out_valid,
         gn_in_ready => max_gn_out_ready,
         gn_in_data => max_gn_out,
-        th_valid => threshold_valid,
+        th_valid => th_valid,
         th_ready => threshold_ready,
         th_data => threshold_data,
         abnormal_valid => abnormal_flag_valid,
         abnormal_ready => abnormal_ready,
-        abnormal_data => abnormal_data,
+        abnormal_data => abnormal_data(0),
         gp_out_valid => gp_t_valid,
         gp_out_ready => gp_t_ready,
         gp_out_data => gp_t,
@@ -484,6 +566,72 @@ begin
         gn_out_ready => gn_t_ready,
         gn_out_data => gn_t
     );
+    
+    abnormal_data(32 downto 1) <= gp_t(63 downto 32);
+    
+--    save_g : process(clk)
+--        variable gn_t_valid_var : std_logic_vector (NUM_SENSORS - 1 downto 0) := (others => '0');
+--        variable gp_t_valid_var : std_logic_vector (NUM_SENSORS - 1 downto 0) := (others => '0');
+--    begin
+--        if rising_edge(clk) then
+--            -- save gn in the correct fifo
+--            for i in 0 to NUM_SENSORS - 1 loop
+--                gn_t_valid_var(i) := '0';
+--            end loop;
+            
+--            gn_t_valid_var(to_integer(unsigned(gn_t(63 downto 32)))) := gn_t_valid;
+--            gn_t_ready <= gn_t_ready_array(to_integer(unsigned(gn_t(63 downto 32))));
+            
+--            gn_t_valid_array <= gn_t_valid_var;
+            
+--            -- save gn in the correct fifo
+--            for i in 0 to NUM_SENSORS - 1 loop
+--                gp_t_valid_var(i) := '0';
+--            end loop;
+            
+--            gp_t_valid_var(to_integer(unsigned(gp_t(63 downto 32)))) := gp_t_valid;
+--            gp_t_ready <= gp_t_ready_array(to_integer(unsigned(gp_t(63 downto 32))));
+            
+--            gp_t_valid_array <= gp_t_valid_var;
+--        end if;
+--        if rising_edge(clk) then
+--            -- save gn in the correct fifo
+--            for i in 0 to NUM_SENSORS - 1 loop
+--                gn_t_valid_array(i) <= '0';
+--            end loop;
+            
+--            gn_t_valid_array(to_integer(unsigned(gn_t(63 downto 32)))) <= gn_t_valid;
+--            gn_t_ready <= gn_t_ready_array(to_integer(unsigned(gn_t(63 downto 32))));
+            
+--            -- save gp in the correct fifo
+--            for i in 0 to NUM_SENSORS - 1 loop
+--                gp_t_valid_array(i) <= '0';
+--            end loop;
+            
+--            gp_t_valid_array(to_integer(unsigned(gp_t(63 downto 32)))) <= gp_t_valid;
+--            gp_t_ready <= gp_t_ready_array(to_integer(unsigned(gp_t(63 downto 32))));
+--        end if;
+--    end process save_g;
+
+--    gn_t_valid_array(NUM_SENSORS - 1 downto (to_integer(unsigned(gn_t(63 downto 32))) + 1)) <= (others => '0');
+--    gn_t_valid_array(to_integer(unsigned(gn_t(63 downto 32)))) <= gn_t_valid;
+--    gn_t_valid_array(to_integer(unsigned(gn_t(63 downto 32))) - 1 downto 0) <= (others => '0');
+--    gn_t_ready <= gn_t_ready_array(to_integer(unsigned(gn_t(63 downto 32))));
+
+--    gp_t_valid_array(NUM_SENSORS - 1 downto (to_integer(unsigned(gp_t(63 downto 32))) + 1)) <= (others => '0');
+--    gp_t_valid_array(to_integer(unsigned(gp_t(63 downto 32)))) <= gp_t_valid;
+--    gp_t_valid_array(to_integer(unsigned(gp_t(63 downto 32))) - 1 downto 0) <= (others => '0');
+--    gp_t_ready <= gp_t_ready_array(to_integer(unsigned(gp_t(63 downto 32))));
+
+--    gn_t_valid_array(to_integer(unsigned(gn_t(63 downto 32)))) <= gn_t_valid;
+    
+    gn_t_valid_mask(0) <= gn_t_valid;
+    gn_t_valid_array <= std_logic_vector(shift_left(unsigned(gn_t_valid_mask), to_integer(unsigned(gn_t(63 downto 32)))));
+    gn_t_ready <= gn_t_ready_array(to_integer(unsigned(gn_t(63 downto 32))));
+    
+    gp_t_valid_mask(0) <= gp_t_valid;
+    gp_t_valid_array <= std_logic_vector(shift_left(unsigned(gp_t_valid_mask), to_integer(unsigned(gp_t(63 downto 32)))));
+    gp_t_ready <= gp_t_ready_array(to_integer(unsigned(gp_t(63 downto 32))));
     
     abnormal_valid <= abnormal_flag_valid;
     

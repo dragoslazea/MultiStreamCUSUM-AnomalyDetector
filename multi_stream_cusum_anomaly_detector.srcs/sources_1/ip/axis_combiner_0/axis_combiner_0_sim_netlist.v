@@ -3,8 +3,8 @@
 // Tool Version: Vivado v.2016.4 (win64) Build 1756540 Mon Jan 23 19:11:23 MST 2017
 // Date        : Wed Oct 11 13:00:37 2023
 // Host        : LAPTOP-S8S4C16E running 64-bit major release  (build 9200)
-// Command     : write_verilog -force -mode funcsim
-//               c:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/ip/axis_combiner_0/axis_combiner_0_sim_netlist.v
+// Command     : write_verilog -force -mode funcsim -rename_top axis_combiner_0 -prefix
+//               axis_combiner_0_ axis_combiner_0_sim_netlist.v
 // Design      : axis_combiner_0
 // Purpose     : This verilog netlist is a functional simulation representation of the design and should not be modified
 //               or synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -111,7 +111,7 @@ endmodule
 (* G_MASK_SS_TID = "32" *) (* G_MASK_SS_TKEEP = "8" *) (* G_MASK_SS_TLAST = "16" *) 
 (* G_MASK_SS_TREADY = "1" *) (* G_MASK_SS_TSTRB = "4" *) (* G_MASK_SS_TUSER = "128" *) 
 (* G_TASK_SEVERITY_ERR = "2" *) (* G_TASK_SEVERITY_INFO = "0" *) (* G_TASK_SEVERITY_WARNING = "1" *) 
-(* ORIG_REF_NAME = "axis_combiner_v1_1_10_top" *) (* P_MASTER_PORT_NUM = "0" *) (* P_TPAYLOAD_WIDTH = "64" *) 
+(* P_MASTER_PORT_NUM = "0" *) (* P_TPAYLOAD_WIDTH = "64" *) 
 module axis_combiner_0_axis_combiner_v1_1_10_top
    (aclk,
     aresetn,

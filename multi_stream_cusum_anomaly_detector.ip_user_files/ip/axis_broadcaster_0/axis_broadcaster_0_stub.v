@@ -3,8 +3,8 @@
 // Tool Version: Vivado v.2016.4 (win64) Build 1756540 Mon Jan 23 19:11:23 MST 2017
 // Date        : Wed Oct 11 12:55:17 2023
 // Host        : LAPTOP-S8S4C16E running 64-bit major release  (build 9200)
-// Command     : write_verilog -force -mode synth_stub
-//               c:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/ip/axis_broadcaster_0/axis_broadcaster_0_stub.v
+// Command     : write_verilog -force -mode synth_stub -rename_top axis_broadcaster_0 -prefix
+//               axis_broadcaster_0_ axis_broadcaster_0_stub.v
 // Design      : axis_broadcaster_0
 // Purpose     : Stub declaration of top-level module interface
 // Device      : xc7a35tcpg236-1

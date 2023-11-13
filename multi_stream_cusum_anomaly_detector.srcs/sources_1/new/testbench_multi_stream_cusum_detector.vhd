@@ -35,7 +35,7 @@ component multi_stream_cusum_detector is
            drift_valid : in STD_LOGIC;
            
            -- outputs
-           abnormal_data : out STD_LOGIC;
+           abnormal_data : out STD_LOGIC_VECTOR (32 downto 0);
            abnormal_ready : in STD_LOGIC;
            abnormal_valid : out STD_LOGIC;
            
@@ -53,7 +53,7 @@ signal nrst, prev_nrst : STD_LOGIC := '1';
 -- data signals
 signal Tt, Tt_1 : STD_LOGIC_VECTOR (63 downto 0) := (others => '0');
 signal th, drift, timestamp : STD_LOGIC_VECTOR (31 downto 0) := (others => '0');
-signal abnormal : STD_LOGIC := '0';
+signal abnormal : STD_LOGIC_VECTOR (32 downto 0) := (others => '0');
 
 -- ready signals
 signal Tt_ready, Tt_1_ready, th_ready, drift_ready, timestamp_ready, abnormal_ready : STD_LOGIC;
@@ -109,7 +109,8 @@ begin
     timestamp_ready <= '1';
     
     process (clk)
-        file sensors_data : text open read_mode is "04-12-22_measurements_bin_short.csv";
+--        file sensors_data : text open read_mode is "04-12-22_measurements_bin_short.csv";
+        file sensors_data : text open read_mode is "04-12-22_measurements_bin_short_test.csv";
         variable in_line : line;
         
         
@@ -152,7 +153,7 @@ begin
                         readline(sensors_data, in_line);
                         read(in_line, current_timestamp);
                     
-                        Tt_1 <= Tt;
+                        Tt_1 <= x"00000001" & Tt(31 downto 0);
                         
                         Tt_valid <= '1';
                         Tt_1_valid <= '1';
@@ -162,7 +163,7 @@ begin
                         read(in_line, comma);
                         read(in_line, t_ds18b20);
                         
-                        Tt <= x"20000000" & t_ds18b20;
+                        Tt <= x"00000001" & t_ds18b20;
                         
                         measurements(rd_count) <= Tt;
                         rd_count <= rd_count + 1;
@@ -218,7 +219,8 @@ begin
     end process;
     
     process 
-        file results : text open write_mode is "C:\IVA\Research\multi_stream_cusum_anomaly_detector\04-12-22_results_bin_short.csv";
+--        file results : text open write_mode is "C:\IVA\Research\multi_stream_cusum_anomaly_detector\04-12-22_results_bin_short.csv";
+        file results : text open write_mode is "C:\IVA\Research\multi_stream_cusum_anomaly_detector\04-12-22_results_bin_short_test.csv";
         variable out_line : line;
     begin
         wait until rising_edge(clk);
@@ -236,7 +238,7 @@ begin
                 write(out_line, abnormal);
                 writeline(results, out_line);
                 
-                if abnormal = '1' then
+                if abnormal(0) = '1' then
                     report "abnormal ";
                 end if;
                 

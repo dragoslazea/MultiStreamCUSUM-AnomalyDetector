@@ -1,0 +1,57 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Mon Oct 30 16:51:04 2023
+# Process ID: 14132
+# Current directory: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.runs/axis_broadcaster_1_synth_1
+# Command line: vivado.exe -log axis_broadcaster_1.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source axis_broadcaster_1.tcl
+# Log file: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.runs/axis_broadcaster_1_synth_1/axis_broadcaster_1.vds
+# Journal file: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.runs/axis_broadcaster_1_synth_1\vivado.jou
+#-----------------------------------------------------------
+source axis_broadcaster_1.tcl -notrace
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 295.816 ; gain = 86.266
+INFO: [Synth 8-638] synthesizing module 'axis_broadcaster_1' [c:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/ip/axis_broadcaster_1/synth/axis_broadcaster_1.v:57]
+INFO: [Synth 8-638] synthesizing module 'top_axis_broadcaster_1' [c:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/ip/axis_broadcaster_1/hdl/top_axis_broadcaster_1.v:60]
+INFO: [Synth 8-638] synthesizing module 'axis_broadcaster_v1_1_11_core' [c:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/ip/axis_broadcaster_1/hdl/axis_broadcaster_v1_1_vl_rfs.v:59]
+INFO: [Synth 8-638] synthesizing module 'axis_infrastructure_v1_1_0_util_vector2axis' [c:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/ip/axis_broadcaster_1/hdl/axis_infrastructure_v1_1_vl_rfs.v:992]
+INFO: [Synth 8-256] done synthesizing module 'axis_infrastructure_v1_1_0_util_vector2axis' (1#1) [c:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/ip/axis_broadcaster_1/hdl/axis_infrastructure_v1_1_vl_rfs.v:992]
+INFO: [Synth 8-638] synthesizing module 'axis_infrastructure_v1_1_0_util_axis2vector' [c:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/ip/axis_broadcaster_1/hdl/axis_infrastructure_v1_1_vl_rfs.v:810]
+INFO: [Synth 8-256] done synthesizing module 'axis_infrastructure_v1_1_0_util_axis2vector' (2#1) [c:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/ip/axis_broadcaster_1/hdl/axis_infrastructure_v1_1_vl_rfs.v:810]
+INFO: [Synth 8-256] done synthesizing module 'axis_broadcaster_v1_1_11_core' (3#1) [c:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/ip/axis_broadcaster_1/hdl/axis_broadcaster_v1_1_vl_rfs.v:59]
+INFO: [Synth 8-638] synthesizing module 'tdata_axis_broadcaster_1' [c:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/ip/axis_broadcaster_1/hdl/tdata_axis_broadcaster_1.v:49]
+INFO: [Synth 8-256] done synthesizing module 'tdata_axis_broadcaster_1' (4#1) [c:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/ip/axis_broadcaster_1/hdl/tdata_axis_broadcaster_1.v:49]
+INFO: [Synth 8-638] synthesizing module 'tuser_axis_broadcaster_1' [c:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/ip/axis_broadcaster_1/hdl/tuser_axis_broadcaster_1.v:49]
+INFO: [Synth 8-256] done synthesizing module 'tuser_axis_broadcaster_1' (5#1) [c:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/ip/axis_broadcaster_1/hdl/tuser_axis_broadcaster_1.v:49]
+INFO: [Synth 8-256] done synthesizing module 'top_axis_broadcaster_1' (6#1) [c:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/ip/axis_broadcaster_1/hdl/top_axis_broadcaster_1.v:60]
+INFO: [Synth 8-256] done synthesizing module 'axis_broadcaster_1' (7#1) [c:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/ip/axis_broadcaster_1/synth/axis_broadcaster_1.v:57]
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 333.273 ; gain = 123.723
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 333.273 ; gain = 123.723
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.012 . Memory (MB): peak = 582.215 ; gain = 0.000
+Finished Constraint Validation : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 582.215 ; gain = 372.664
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 582.215 ; gain = 372.664
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 582.215 ; gain = 372.664
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 582.215 ; gain = 372.664
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 582.215 ; gain = 372.664
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 582.215 ; gain = 372.664
+Finished Timing Optimization : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 589.082 ; gain = 379.531
+Finished Technology Mapping : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 599.824 ; gain = 390.273
+Finished IO Insertion : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 599.824 ; gain = 390.273
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 599.824 ; gain = 390.273
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 599.824 ; gain = 390.273
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 599.824 ; gain = 390.273
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 599.824 ; gain = 390.273
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 599.824 ; gain = 390.273
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT2 |     1|
+|2     |LUT3 |     3|
+|3     |LUT6 |     4|
+|4     |FDRE |     3|
++------+-----+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 599.824 ; gain = 390.273
+synth_design: Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 614.457 ; gain = 398.883

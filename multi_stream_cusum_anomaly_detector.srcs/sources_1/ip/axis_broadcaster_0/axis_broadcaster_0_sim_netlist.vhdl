@@ -3,8 +3,8 @@
 -- Tool Version: Vivado v.2016.4 (win64) Build 1756540 Mon Jan 23 19:11:23 MST 2017
 -- Date        : Wed Oct 11 12:55:17 2023
 -- Host        : LAPTOP-S8S4C16E running 64-bit major release  (build 9200)
--- Command     : write_vhdl -force -mode funcsim
---               c:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/ip/axis_broadcaster_0/axis_broadcaster_0_sim_netlist.vhdl
+-- Command     : write_vhdl -force -mode funcsim -rename_top axis_broadcaster_0 -prefix
+--               axis_broadcaster_0_ axis_broadcaster_0_sim_netlist.vhdl
 -- Design      : axis_broadcaster_0
 -- Purpose     : This VHDL netlist is a functional simulation representation of the design and should not be modified or
 --               synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -24,8 +24,6 @@ entity axis_broadcaster_0_axis_broadcaster_v1_1_11_core is
     s_axis_tvalid : in STD_LOGIC;
     aclk : in STD_LOGIC
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of axis_broadcaster_0_axis_broadcaster_v1_1_11_core : entity is "axis_broadcaster_v1_1_11_core";
 end axis_broadcaster_0_axis_broadcaster_v1_1_11_core;
 
 architecture STRUCTURE of axis_broadcaster_0_axis_broadcaster_v1_1_11_core is
@@ -210,8 +208,6 @@ entity axis_broadcaster_0_top_axis_broadcaster_0 is
   attribute G_TASK_SEVERITY_INFO of axis_broadcaster_0_top_axis_broadcaster_0 : entity is 0;
   attribute G_TASK_SEVERITY_WARNING : integer;
   attribute G_TASK_SEVERITY_WARNING of axis_broadcaster_0_top_axis_broadcaster_0 : entity is 1;
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of axis_broadcaster_0_top_axis_broadcaster_0 : entity is "top_axis_broadcaster_0";
   attribute P_TPAYLOAD_WIDTH : integer;
   attribute P_TPAYLOAD_WIDTH of axis_broadcaster_0_top_axis_broadcaster_0 : entity is 64;
 end axis_broadcaster_0_top_axis_broadcaster_0;

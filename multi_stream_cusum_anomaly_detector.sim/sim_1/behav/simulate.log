@@ -1,322 +1,364 @@
 Vivado Simulator 2016.4
 Time resolution is 1 ps
-Note: t = 12/04/2022 14:57
-Time: 210 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
-Note: T(t - 1) = 0000000000000000000000000000000000000000000000000000000000000000
-Time: 210 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
-Note: T(t) = 0000000000000000000000000000000000000000000000000000000000000000
-Time: 210 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
-Note: t = 12/04/2022 14:58
-Time: 230 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
-Note: T(t - 1) = 0000000000000000000000000000000000000000000000000000000000000000
-Time: 230 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
-Note: T(t) = 0010000000000000000000000000000001000010011000010000000000000000
-Time: 230 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
-Note: t = 12/04/2022 14:58
-Time: 250 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
-Note: T(t - 1) = 0010000000000000000000000000000001000010011000010000000000000000
-Time: 250 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
-Note: T(t) = 0010000000000000000000000000000001000010011000011000010100011111
-Time: 250 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
-Note: t = 12/04/2022 14:58
-Time: 270 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
-Note: T(t - 1) = 0010000000000000000000000000000001000010011000011000010100011111
-Time: 270 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
-Note: T(t) = 0010000000000000000000000000000001000010011001100000000000000000
-Time: 270 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
-Note: t = 12/04/2022 14:58
-Time: 290 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
-Note: T(t - 1) = 0010000000000000000000000000000001000010011001100000000000000000
-Time: 290 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
-Note: T(t) = 0010000000000000000000000000000001000010011110001000010100011111
-Time: 290 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
-Note: t = 12/04/2022 14:58
-Time: 310 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
-Note: T(t - 1) = 0010000000000000000000000000000001000010011110001000010100011111
-Time: 310 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
-Note: T(t) = 0010000000000000000000000000000001000010011111011000010100011111
-Time: 310 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
-Note: t = 12/04/2022 14:58
-Time: 330 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
-Note: T(t - 1) = 0010000000000000000000000000000001000010011111011000010100011111
-Time: 330 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
-Note: T(t) = 0010000000000000000000000000000001000010011011011000010100011111
-Time: 330 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
-Note: t = 12/04/2022 14:59
-Time: 350 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
-Note: T(t - 1) = 0010000000000000000000000000000001000010011011011000010100011111
-Time: 350 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
-Note: T(t) = 0010000000000000000000000000000001000010011010101000010100011111
-Time: 350 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
-Note: t = 12/04/2022 14:59
-Time: 370 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
-Note: T(t - 1) = 0010000000000000000000000000000001000010011010101000010100011111
-Time: 370 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
-Note: T(t) = 0010000000000000000000000000000001000010011100101000010100011111
-Time: 370 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
-Note: t = 12/04/2022 14:59
-Time: 390 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
-Note: T(t - 1) = 0010000000000000000000000000000001000010011100101000010100011111
-Time: 390 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
-Note: T(t) = 0010000000000000000000000000000001000010011010101000010100011111
-Time: 390 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
-Note: t = 12/04/2022 14:59
-Time: 410 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
-Note: T(t - 1) = 0010000000000000000000000000000001000010011010101000010100011111
-Time: 410 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
-Note: T(t) = 0010000000000000000000000000000001000010100001001011110101110001
-Time: 410 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
-Note: t = 12/04/2022 14:59
-Time: 430 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
-Note: T(t - 1) = 0010000000000000000000000000000001000010100001001011110101110001
-Time: 430 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
-Note: T(t) = 0010000000000000000000000000000001000010100100110001111010111000
-Time: 430 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
-Note: t = 12/04/2022 15:00
-Time: 450 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
-Note: T(t - 1) = 0010000000000000000000000000000001000010100100110001111010111000
-Time: 450 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
-Note: T(t) = 0010000000000000000000000000000001000010101000010110000101001000
-Time: 450 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
-Note: t = 12/04/2022 15:00
-Time: 470 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
-Note: T(t - 1) = 0010000000000000000000000000000001000010101000010110000101001000
-Time: 470 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
-Note: T(t) = 0010000000000000000000000000000001000010101001011001111010111000
-Time: 470 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
-Note: t = 12/04/2022 15:00
-Time: 490 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
-Note: T(t - 1) = 0010000000000000000000000000000001000010101001011001111010111000
-Time: 490 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
-Note: T(t) = 0010000000000000000000000000000001000010101011001001111010111000
-Time: 490 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
-Note: t = 12/04/2022 15:00
-Time: 510 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
-Note: T(t - 1) = 0010000000000000000000000000000001000010101011001001111010111000
-Time: 510 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
-Note: T(t) = 0010000000000000000000000000000001000010101111010110000101001000
-Time: 510 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
-Note: t = 12/04/2022 15:00
-Time: 530 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
-Note: T(t - 1) = 0010000000000000000000000000000001000010101111010110000101001000
-Time: 530 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
-Note: T(t) = 0010000000000000000000000000000001000010101000110000000000000000
-Time: 530 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
-Note: t = 12/04/2022 15:00
-Time: 550 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
-Note: T(t - 1) = 0010000000000000000000000000000001000010101000110000000000000000
-Time: 550 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
-Note: T(t) = 0010000000000000000000000000000001000010101100000000000000000000
-Time: 550 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
 Note: t = 12/04/2022 15:01
-Time: 570 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
-Note: T(t - 1) = 0010000000000000000000000000000001000010101100000000000000000000
-Time: 570 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
-Note: T(t) = 0010000000000000000000000000000001000010101100111011110101110001
-Time: 570 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
-Note: t = 12/04/2022 15:01
-Time: 590 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
-Note: T(t - 1) = 0010000000000000000000000000000001000010101100111011110101110001
-Time: 590 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
-Note: T(t) = 0010000000000000000000000000000001000010101101011000000000000000
-Time: 590 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
-Note: t = 12/04/2022 15:01
-Time: 610 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
-Note: T(t - 1) = 0010000000000000000000000000000001000010101101011000000000000000
-Time: 610 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
-Note: T(t) = 0010000000000000000000000000000001000010101100111110000101001000
-Time: 610 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
-Note: t = 12/04/2022 15:01
-Time: 630 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
-Note: T(t - 1) = 0010000000000000000000000000000001000010101100111110000101001000
-Time: 630 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
-Note: T(t) = 0010000000000000000000000000000001000010101100110000000000000000
-Time: 630 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
-Note: t = 12/04/2022 15:01
-Time: 650 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
-Note: T(t - 1) = 0010000000000000000000000000000001000010101100110000000000000000
-Time: 650 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
-Note: T(t) = 0010000000000000000000000000000001000010101101000000000000000000
-Time: 650 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
-Note: t = 12/04/2022 15:01
-Time: 670 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
-Note: T(t - 1) = 0010000000000000000000000000000001000010101101000000000000000000
-Time: 670 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
-Note: T(t) = 0010000000000000000000000000000001000010101100101110000101001000
-Time: 670 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
+Time: 210 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: T(t - 1) = 0000000000000000000000000000000100000000000000000000000000000000
+Time: 210 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: T(t) = 0000000000000000000000000000000100000000000000000000000000000000
+Time: 210 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
 Note: t = 12/04/2022 15:02
-Time: 690 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
-Note: T(t - 1) = 0010000000000000000000000000000001000010101100101110000101001000
-Time: 690 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
-Note: T(t) = 0010000000000000000000000000000001000010100111011001111010111000
-Time: 690 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
+Time: 230 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: T(t - 1) = 0000000000000000000000000000000100000000000000000000000000000000
+Time: 230 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: T(t) = 0000000000000000000000000000000101000010100111011001111010111000
+Time: 230 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
 Note: t = 12/04/2022 15:02
-Time: 710 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
-Note: T(t - 1) = 0010000000000000000000000000000001000010100111011001111010111000
-Time: 710 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
-Note: T(t) = 0010000000000000000000000000000001000010101001010110000101001000
-Time: 710 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
+Time: 250 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: T(t - 1) = 0000000000000000000000000000000101000010100111011001111010111000
+Time: 250 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: T(t) = 0000000000000000000000000000000101000010101001010110000101001000
+Time: 250 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
 Note: t = 12/04/2022 15:02
-Time: 730 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
-Note: T(t - 1) = 0010000000000000000000000000000001000010101001010110000101001000
-Time: 730 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
-Note: T(t) = 0010000000000000000000000000000001000010101000101001111010111000
-Time: 730 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
+Time: 270 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: T(t - 1) = 0000000000000000000000000000000101000010101001010110000101001000
+Time: 270 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: T(t) = 0000000000000000000000000000000101000010101000101001111010111000
+Time: 270 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
 Note: t = 12/04/2022 15:02
-Time: 750 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
-Note: T(t - 1) = 0010000000000000000000000000000001000010101000101001111010111000
-Time: 750 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
-Note: T(t) = 0010000000000000000000000000000001000010101010111000000000000000
-Time: 750 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
+Time: 290 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: T(t - 1) = 0000000000000000000000000000000101000010101000101001111010111000
+Time: 290 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: T(t) = 0000000000000000000000000000000101000010101010111000000000000000
+Time: 290 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
 Note: t = 12/04/2022 15:02
-Time: 770 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
-Note: T(t - 1) = 0010000000000000000000000000000001000010101010111000000000000000
-Time: 770 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
-Note: T(t) = 0010000000000000000000000000000001000010101100000001111010111000
-Time: 770 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
+Time: 310 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: T(t - 1) = 0000000000000000000000000000000101000010101010111000000000000000
+Time: 310 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: T(t) = 0000000000000000000000000000000101000010101100000001111010111000
+Time: 310 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
 Note: t = 12/04/2022 15:03
-Time: 790 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
-Note: T(t - 1) = 0010000000000000000000000000000001000010101100000001111010111000
-Time: 790 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
-Note: T(t) = 0010000000000000000000000000000001000010101011101011110101110001
-Time: 790 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
+Time: 330 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: T(t - 1) = 0000000000000000000000000000000101000010101100000001111010111000
+Time: 330 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: T(t) = 0000000000000000000000000000000101000010101011101011110101110001
+Time: 330 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
 Note: t = 12/04/2022 15:03
-Time: 810 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
-Note: T(t - 1) = 0010000000000000000000000000000001000010101011101011110101110001
-Time: 810 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
-Note: T(t) = 0010000000000000000000000000000001000010101100100000000000000000
-Time: 810 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
+Time: 350 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: T(t - 1) = 0000000000000000000000000000000101000010101011101011110101110001
+Time: 350 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: T(t) = 0000000000000000000000000000000101000010101100100000000000000000
+Time: 350 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
 Note: t = 12/04/2022 15:03
-Time: 830 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
-Note: T(t - 1) = 0010000000000000000000000000000001000010101100100000000000000000
-Time: 830 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
-Note: T(t) = 0010000000000000000000000000000001000010101011001011110101110001
-Time: 830 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
+Time: 370 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: T(t - 1) = 0000000000000000000000000000000101000010101100100000000000000000
+Time: 370 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: T(t) = 0000000000000000000000000000000101000010101011001011110101110001
+Time: 370 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
 Note: t = 12/04/2022 15:03
-Time: 850 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
-Note: T(t - 1) = 0010000000000000000000000000000001000010101011001011110101110001
-Time: 850 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
-Note: T(t) = 0010000000000000000000000000000001000010101000100011110101110001
-Time: 850 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
+Time: 390 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: T(t - 1) = 0000000000000000000000000000000101000010101011001011110101110001
+Time: 390 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: T(t) = 0000000000000000000000000000000101000010101000100011110101110001
+Time: 390 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
 Note: t = 12/04/2022 15:03
-Time: 870 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
-Note: T(t - 1) = 0010000000000000000000000000000001000010101000100011110101110001
-Time: 870 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
-Note: T(t) = 0010000000000000000000000000000001000010100111000011110101110001
-Time: 870 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
+Time: 410 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: T(t - 1) = 0000000000000000000000000000000101000010101000100011110101110001
+Time: 410 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: T(t) = 0000000000000000000000000000000101000010100111000011110101110001
+Time: 410 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
 Note: t = 12/04/2022 15:03
-Time: 890 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
-Note: T(t - 1) = 0010000000000000000000000000000001000010100111000011110101110001
-Time: 890 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
-Note: T(t) = 0010000000000000000000000000000001000010101000000011110101110001
-Time: 890 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
+Time: 430 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: T(t - 1) = 0000000000000000000000000000000101000010100111000011110101110001
+Time: 430 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: T(t) = 0000000000000000000000000000000101000010101000000011110101110001
+Time: 430 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
 Note: t = 12/04/2022 15:04
-Time: 910 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
-Note: T(t - 1) = 0010000000000000000000000000000001000010101000000011110101110001
-Time: 910 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
-Note: T(t) = 0010000000000000000000000000000001000010101000101000000000000000
-Time: 910 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
+Time: 450 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: T(t - 1) = 0000000000000000000000000000000101000010101000000011110101110001
+Time: 450 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: T(t) = 0000000000000000000000000000000101000010101000101000000000000000
+Time: 450 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
 Note: t = 12/04/2022 15:04
-Time: 930 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
-Note: T(t - 1) = 0010000000000000000000000000000001000010101000101000000000000000
-Time: 930 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
-Note: T(t) = 0010000000000000000000000000000001000010100111101110000101001000
-Time: 930 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
+Time: 470 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: T(t - 1) = 0000000000000000000000000000000101000010101000101000000000000000
+Time: 470 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: T(t) = 0000000000000000000000000000000101000010100111101110000101001000
+Time: 470 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
 Note: t = 12/04/2022 15:04
-Time: 950 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
-Note: T(t - 1) = 0010000000000000000000000000000001000010100111101110000101001000
-Time: 950 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
-Note: T(t) = 0010000000000000000000000000000001000010100111110011110101110001
-Time: 950 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
+Time: 490 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: T(t - 1) = 0000000000000000000000000000000101000010100111101110000101001000
+Time: 490 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: T(t) = 0000000000000000000000000000000101000010100111110011110101110001
+Time: 490 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
 Note: t = 12/04/2022 15:04
-Time: 970 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
-Note: T(t - 1) = 0010000000000000000000000000000001000010100111110011110101110001
-Time: 970 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
-Note: T(t) = 0010000000000000000000000000000001000010101001011000000000000000
-Time: 970 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
+Time: 510 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: T(t - 1) = 0000000000000000000000000000000101000010100111110011110101110001
+Time: 510 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: T(t) = 0000000000000000000000000000000101000010101001011000000000000000
+Time: 510 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
 Note: t = 12/04/2022 15:04
-Time: 990 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
-Note: T(t - 1) = 0010000000000000000000000000000001000010101001011000000000000000
-Time: 990 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
-Note: T(t) = 0010000000000000000000000000000001000010101100000011110101110001
-Time: 990 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
+Time: 530 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: T(t - 1) = 0000000000000000000000000000000101000010101001011000000000000000
+Time: 530 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: T(t) = 0000000000000000000000000000000101000010101100000011110101110001
+Time: 530 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
 Note: t = 12/04/2022 15:04
-Time: 1010 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
-Note: T(t - 1) = 0010000000000000000000000000000001000010101100000011110101110001
-Time: 1010 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
-Note: T(t) = 0010000000000000000000000000000001000010101100010110000101001000
-Time: 1010 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
+Time: 550 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: T(t - 1) = 0000000000000000000000000000000101000010101100000011110101110001
+Time: 550 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: T(t) = 0000000000000000000000000000000101000010101100010110000101001000
+Time: 550 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
 Note: t = 12/04/2022 15:05
-Time: 1030 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
-Note: T(t - 1) = 0010000000000000000000000000000001000010101100010110000101001000
-Time: 1030 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
-Note: T(t) = 0010000000000000000000000000000001000010101010111001111010111000
-Time: 1030 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
+Time: 570 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: T(t - 1) = 0000000000000000000000000000000101000010101100010110000101001000
+Time: 570 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: T(t) = 0000000000000000000000000000000101000010101010111001111010111000
+Time: 570 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
 Note: t = 12/04/2022 15:05
-Time: 1050 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
-Note: T(t - 1) = 0010000000000000000000000000000001000010101010111001111010111000
-Time: 1050 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
-Note: T(t) = 0010000000000000000000000000000001000010101011011001111010111000
-Time: 1050 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
+Time: 590 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: T(t - 1) = 0000000000000000000000000000000101000010101010111001111010111000
+Time: 590 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: T(t) = 0000000000000000000000000000000101000010101011011001111010111000
+Time: 590 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
 Note: t = 12/04/2022 15:05
-Time: 1070 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
-Note: T(t - 1) = 0010000000000000000000000000000001000010101011011001111010111000
-Time: 1070 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
-Note: T(t) = 0010000000000000000000000000000001000010101011111001111010111000
-Time: 1070 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
+Time: 610 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: T(t - 1) = 0000000000000000000000000000000101000010101011011001111010111000
+Time: 610 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: T(t) = 0000000000000000000000000000000101000010101011111001111010111000
+Time: 610 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
 Note: t = 12/04/2022 15:05
-Time: 1090 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
-Note: T(t - 1) = 0010000000000000000000000000000001000010101011111001111010111000
-Time: 1090 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
-Note: T(t) = 0010000000000000000000000000000001000010101010011110000101001000
-Time: 1090 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
+Time: 630 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: T(t - 1) = 0000000000000000000000000000000101000010101011111001111010111000
+Time: 630 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: T(t) = 0000000000000000000000000000000101000010101010011110000101001000
+Time: 630 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
 Note: t = 12/04/2022 15:05
-Time: 1110 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
-Note: T(t - 1) = 0010000000000000000000000000000001000010101010011110000101001000
-Time: 1110 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
-Note: T(t) = 0010000000000000000000000000000001000010101001110001111010111000
-Time: 1110 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__111  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
+Time: 650 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: T(t - 1) = 0000000000000000000000000000000101000010101010011110000101001000
+Time: 650 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: T(t) = 0000000000000000000000000000000101000010101001110001111010111000
+Time: 650 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: t = 12/04/2022 15:06
+Time: 670 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: T(t - 1) = 0000000000000000000000000000000101000010101001110001111010111000
+Time: 670 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: T(t) = 0000000000000000000000000000000101000010101010101110000101001000
+Time: 670 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: t = 12/04/2022 15:06
+Time: 690 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: T(t - 1) = 0000000000000000000000000000000101000010101010101110000101001000
+Time: 690 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: T(t) = 0000000000000000000000000000000101000010101000100000000000000000
+Time: 690 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: t = 12/04/2022 15:06
+Time: 710 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: T(t - 1) = 0000000000000000000000000000000101000010101000100000000000000000
+Time: 710 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: T(t) = 0000000000000000000000000000000101000010101001010011110101110001
+Time: 710 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: t = 12/04/2022 15:06
+Time: 730 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: T(t - 1) = 0000000000000000000000000000000101000010101001010011110101110001
+Time: 730 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: T(t) = 0000000000000000000000000000000101000010101000111000000000000000
+Time: 730 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: t = 12/04/2022 15:06
+Time: 750 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: T(t - 1) = 0000000000000000000000000000000101000010101000111000000000000000
+Time: 750 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: T(t) = 0000000000000000000000000000000101000010101001111001111010111000
+Time: 750 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: t = 12/04/2022 15:06
+Time: 770 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: T(t - 1) = 0000000000000000000000000000000101000010101001111001111010111000
+Time: 770 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: T(t) = 0000000000000000000000000000000101000010101001110011110101110001
+Time: 770 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: t = 12/04/2022 15:07
+Time: 790 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: T(t - 1) = 0000000000000000000000000000000101000010101001110011110101110001
+Time: 790 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: T(t) = 0000000000000000000000000000000101000010101000011001111010111000
+Time: 790 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: t = 12/04/2022 15:07
+Time: 810 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: T(t - 1) = 0000000000000000000000000000000101000010101000011001111010111000
+Time: 810 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: T(t) = 0000000000000000000000000000000101000010101010100000000000000000
+Time: 810 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: t = 12/04/2022 15:07
+Time: 830 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: T(t - 1) = 0000000000000000000000000000000101000010101010100000000000000000
+Time: 830 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: T(t) = 0000000000000000000000000000000101000010101001000011110101110001
+Time: 830 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: t = 12/04/2022 15:07
+Time: 850 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: T(t - 1) = 0000000000000000000000000000000101000010101001000011110101110001
+Time: 850 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: T(t) = 0000000000000000000000000000000101000010101001101110000101001000
+Time: 850 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: t = 12/04/2022 15:07
+Time: 870 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: T(t - 1) = 0000000000000000000000000000000101000010101001101110000101001000
+Time: 870 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: T(t) = 0000000000000000000000000000000101000010101110001110000101001000
+Time: 870 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: t = 12/04/2022 15:07
+Time: 890 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: T(t - 1) = 0000000000000000000000000000000101000010101110001110000101001000
+Time: 890 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: T(t) = 0000000000000000000000000000000101000010101110000001111010111000
+Time: 890 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: t = 12/04/2022 15:08
+Time: 910 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: T(t - 1) = 0000000000000000000000000000000101000010101110000001111010111000
+Time: 910 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: T(t) = 0000000000000000000000000000000101000010101110010011110101110001
+Time: 910 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: t = 12/04/2022 15:08
+Time: 930 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: T(t - 1) = 0000000000000000000000000000000101000010101110010011110101110001
+Time: 930 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: T(t) = 0000000000000000000000000000000101000010101101111001111010111000
+Time: 930 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: t = 12/04/2022 15:08
+Time: 950 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: T(t - 1) = 0000000000000000000000000000000101000010101101111001111010111000
+Time: 950 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: T(t) = 0000000000000000000000000000000101000010101101110110000101001000
+Time: 950 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: t = 12/04/2022 15:08
+Time: 970 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: T(t - 1) = 0000000000000000000000000000000101000010101101110110000101001000
+Time: 970 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: T(t) = 0000000000000000000000000000000101000010101110000001111010111000
+Time: 970 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: t = 12/04/2022 15:08
+Time: 990 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: T(t - 1) = 0000000000000000000000000000000101000010101110000001111010111000
+Time: 990 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: T(t) = 0000000000000000000000000000000101000010101101110001111010111000
+Time: 990 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: t = 12/04/2022 15:09
+Time: 1010 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: T(t - 1) = 0000000000000000000000000000000101000010101101110001111010111000
+Time: 1010 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: T(t) = 0000000000000000000000000000000101000010101011110000000000000000
+Time: 1010 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: t = 12/04/2022 15:09
+Time: 1030 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: T(t - 1) = 0000000000000000000000000000000101000010101011110000000000000000
+Time: 1030 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: T(t) = 0000000000000000000000000000000101000010101011011000000000000000
+Time: 1030 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: t = 12/04/2022 15:09
+Time: 1050 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: T(t - 1) = 0000000000000000000000000000000101000010101011011000000000000000
+Time: 1050 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: T(t) = 0000000000000000000000000000000101000010101100000000000000000000
+Time: 1050 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: t = 12/04/2022 15:09
+Time: 1070 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: T(t - 1) = 0000000000000000000000000000000101000010101100000000000000000000
+Time: 1070 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: T(t) = 0000000000000000000000000000000101000010101101100000000000000000
+Time: 1070 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: t = 12/04/2022 15:09
+Time: 1090 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: T(t - 1) = 0000000000000000000000000000000101000010101101100000000000000000
+Time: 1090 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: T(t) = 0000000000000000000000000000000101000010101110100001111010111000
+Time: 1090 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: t = 12/04/2022 15:09
+Time: 1110 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: T(t - 1) = 0000000000000000000000000000000101000010101110100001111010111000
+Time: 1110 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: T(t) = 0000000000000000000000000000000101000010101101000000000000000000
+Time: 1110 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: t = 12/04/2022 15:10
+Time: 1130 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: T(t - 1) = 0000000000000000000000000000000101000010101101000000000000000000
+Time: 1130 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: T(t) = 0000000000000000000000000000000101000010101011011001111010111000
+Time: 1130 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: t = 12/04/2022 15:10
+Time: 1150 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: T(t - 1) = 0000000000000000000000000000000101000010101011011001111010111000
+Time: 1150 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: T(t) = 0000000000000000000000000000000101000010101100101001111010111000
+Time: 1150 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: t = 12/04/2022 15:10
+Time: 1170 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: T(t - 1) = 0000000000000000000000000000000101000010101100101001111010111000
+Time: 1170 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: T(t) = 0000000000000000000000000000000101000010101101000110000101001000
+Time: 1170 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: t = 12/04/2022 15:10
+Time: 1190 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: T(t - 1) = 0000000000000000000000000000000101000010101101000110000101001000
+Time: 1190 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: T(t) = 0000000000000000000000000000000101000010101100010001111010111000
+Time: 1190 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: t = 12/04/2022 15:10
+Time: 1470 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: T(t - 1) = 0000000000000000000000000000000101000010101100010001111010111000
+Time: 1470 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: T(t) = 0000000000000000000000000000000101000010101010011000000000000000
+Time: 1470 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
 Note: abnormal 
-Time: 3890 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__220  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
+Time: 2190 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__225  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: t = 12/04/2022 15:10
+Time: 2310 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: T(t - 1) = 0000000000000000000000000000000101000010101010011000000000000000
+Time: 2310 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: T(t) = 0000000000000000000000000000000101000010101000000000000000000000
+Time: 2310 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__112  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
 Note: abnormal 
-Time: 5570 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__220  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
+Time: 3030 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__225  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
 Note: abnormal 
-Time: 8930 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__220  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
+Time: 4710 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__225  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
 Note: abnormal 
-Time: 9770 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__220  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
+Time: 8070 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__225  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
 Note: abnormal 
-Time: 10610 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__220  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
+Time: 8910 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__225  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
 Note: abnormal 
-Time: 12290 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__220  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
+Time: 9750 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__225  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
 Note: abnormal 
-Time: 13130 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__220  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
+Time: 11430 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__225  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
 Note: abnormal 
-Time: 13970 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__220  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
+Time: 13950 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__225  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
 Note: abnormal 
-Time: 14810 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__220  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
+Time: 14790 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__225  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
 Note: abnormal 
-Time: 20690 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__220  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
+Time: 16470 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__225  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
 Note: abnormal 
-Time: 21530 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__220  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
+Time: 18990 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__225  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
 Note: abnormal 
-Time: 23210 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__220  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
+Time: 21510 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__225  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
 Note: abnormal 
-Time: 26570 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__220  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
+Time: 25710 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__225  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
 Note: abnormal 
-Time: 27410 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__220  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
+Time: 26550 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__225  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
 Note: abnormal 
-Time: 28250 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__220  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
+Time: 27390 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__225  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
 Note: abnormal 
-Time: 29930 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__220  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
+Time: 29070 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__225  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
 Note: abnormal 
-Time: 32450 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__220  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
+Time: 34950 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__225  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
 Note: abnormal 
-Time: 33290 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__220  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
+Time: 37470 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__225  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
 Note: abnormal 
-Time: 34970 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__220  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
+Time: 39150 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__225  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
 Note: abnormal 
-Time: 37490 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__220  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
+Time: 39990 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__225  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
 Note: abnormal 
-Time: 40010 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__220  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
+Time: 41670 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__225  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: abnormal 
+Time: 43350 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__225  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: abnormal 
+Time: 44190 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__225  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
+Note: abnormal 
+Time: 45030 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__225  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd
 Note: execution finished
-Time: 40030 ns  Iteration: 0  Process: /testbench_multi_stream_cusum_detector/line__220  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_multi_stream_cusum_detector.vhd
+Time: 45050 ns  Iteration: 0  Process: /testbench_1_sensor_id_from_file/line__225  File: C:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/new/testbench_1_sensor_id_from_file.vhd

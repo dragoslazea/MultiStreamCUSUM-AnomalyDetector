@@ -1,0 +1,4 @@
+
+*** Running vivado
+    with args -log axis_combiner_1.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source axis_combiner_1.tcl
+

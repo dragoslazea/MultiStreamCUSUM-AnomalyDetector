@@ -3,8 +3,8 @@
 -- Tool Version: Vivado v.2016.4 (win64) Build 1756540 Mon Jan 23 19:11:23 MST 2017
 -- Date        : Wed Oct 11 12:52:51 2023
 -- Host        : LAPTOP-S8S4C16E running 64-bit major release  (build 9200)
--- Command     : write_vhdl -force -mode synth_stub
---               c:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/ip/fifo64x16/fifo64x16_stub.vhdl
+-- Command     : write_vhdl -force -mode synth_stub -rename_top fifo64x16 -prefix
+--               fifo64x16_ fifo64x16_stub.vhdl
 -- Design      : fifo64x16
 -- Purpose     : Stub declaration of top-level module interface
 -- Device      : xc7a35tcpg236-1

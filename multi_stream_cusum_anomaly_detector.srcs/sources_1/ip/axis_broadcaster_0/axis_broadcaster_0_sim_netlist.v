@@ -3,8 +3,8 @@
 // Tool Version: Vivado v.2016.4 (win64) Build 1756540 Mon Jan 23 19:11:23 MST 2017
 // Date        : Wed Oct 11 12:55:17 2023
 // Host        : LAPTOP-S8S4C16E running 64-bit major release  (build 9200)
-// Command     : write_verilog -force -mode funcsim
-//               c:/IVA/Research/multi_stream_cusum_anomaly_detector/multi_stream_cusum_anomaly_detector.srcs/sources_1/ip/axis_broadcaster_0/axis_broadcaster_0_sim_netlist.v
+// Command     : write_verilog -force -mode funcsim -rename_top axis_broadcaster_0 -prefix
+//               axis_broadcaster_0_ axis_broadcaster_0_sim_netlist.v
 // Design      : axis_broadcaster_0
 // Purpose     : This verilog netlist is a functional simulation representation of the design and should not be modified
 //               or synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -100,7 +100,6 @@ module axis_broadcaster_0
         .s_axis_tvalid(s_axis_tvalid));
 endmodule
 
-(* ORIG_REF_NAME = "axis_broadcaster_v1_1_11_core" *) 
 module axis_broadcaster_0_axis_broadcaster_v1_1_11_core
    (m_axis_tvalid,
     s_axis_tready,
@@ -208,7 +207,7 @@ endmodule
 (* G_MASK_SS_TDEST = "64" *) (* G_MASK_SS_TID = "32" *) (* G_MASK_SS_TKEEP = "8" *) 
 (* G_MASK_SS_TLAST = "16" *) (* G_MASK_SS_TREADY = "1" *) (* G_MASK_SS_TSTRB = "4" *) 
 (* G_MASK_SS_TUSER = "128" *) (* G_TASK_SEVERITY_ERR = "2" *) (* G_TASK_SEVERITY_INFO = "0" *) 
-(* G_TASK_SEVERITY_WARNING = "1" *) (* ORIG_REF_NAME = "top_axis_broadcaster_0" *) (* P_TPAYLOAD_WIDTH = "64" *) 
+(* G_TASK_SEVERITY_WARNING = "1" *) (* P_TPAYLOAD_WIDTH = "64" *) 
 module axis_broadcaster_0_top_axis_broadcaster_0
    (aclk,
     aresetn,
